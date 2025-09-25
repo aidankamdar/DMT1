@@ -28,7 +28,7 @@ squared.
 @@@ -/
 
 def square : Nat → Nat :=
-  sorry
+  fun n => n ^ 2
 
 /- @@@
 #1 [5 points].
@@ -117,7 +117,7 @@ replacing the *sorry* with your answer.
 def M : Nat → Nat → Nat := fun x y => x * y
 
 def M' : Nat → Nat :=
-  sorry
+  fun y => M 2 y
 
 /- @@@
 #6 [10 points].
